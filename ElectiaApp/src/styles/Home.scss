@@ -1,0 +1,168 @@
+@use '_variables' as *;
+
+.body-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(243, 244, 246), rgb(246, 247, 249));
+  // background:linear-gradient(#F6F0EA, #F1DFD1);
+  display: flex;
+  align-items: center;
+}
+
+.section-text {
+  // backdrop-filter:brightness(0.98);
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 4vw;
+  gap: 2rem;
+  z-index: 2;
+  padding: 10px;
+
+  span {
+    color: black;
+    z-index: 2;
+  }
+}
+
+.body-header {
+  margin-left: 10%;
+  font-size: 2.7rem;
+  white-space: nowrap;
+}
+
+.body-text {
+  font-size: 1.3rem;
+  font-size: 3vmin;
+}
+
+///////////////////////////////////////////
+
+.hidden-header {
+  opacity: 0;
+  transform: translateY(-20vh);
+  transition: all 1s;
+}
+
+.show-header {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s;
+}
+
+.hidden-body-text {
+  opacity: 0;
+  transform: translateX(-20vh);
+  transition: all 1s;
+}
+
+.show-body-text {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s;
+}
+
+///////////////////////////////////////////////////
+
+.section-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 100%;
+  // background-image: url('../assets/images/body-section1.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  // filter: brightness(0.7);
+}
+
+.centered-content {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  height: 100%; /* Assuming you want the content to be centered vertically as well */
+}
+
+.centered-content * {
+  max-width: 50%;
+}
+
+.centered-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white; 
+}
+
+.centered-content p {
+  margin-top: 0px;
+  font-weight: bolder;
+  color: $fc-white;
+}
+
+.centered-content a {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  padding: 13px;
+  font-size: 15px;
+  background-color: $fc-wine;
+  text-decoration: none;
+  color: white;
+  // color: rgb(214,196,153);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.centered-content a:hover {
+  background-color: rgb(125, 46, 59);
+}
+
+@media (max-width: 700px) {
+  .body-section {
+    height: 100vh;
+    justify-content: flex-end;
+  }
+
+  .section-text {
+    width: 70%;
+  }
+
+  .body-header {
+    text-align: center;
+    transform: translateX(-1em);
+    font-size: min(9vw, 2.7rem);
+  }
+
+  .body-text {
+    font-size: min(4vw, 16px);
+  }
+
+  .section-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .body-header {
+    transform: translateX(min(-16vw, -80px));
+  }
+}
+
+@media (max-width: 450px) {
+  .body-header {
+    transform: translateX(-20vw);
+  }
+}

@@ -1,0 +1,86 @@
+// .course-instance-info-container {
+//     height: 60vh;
+//     margin-top: 20vh;
+//     margin-left: 20vh;
+// }
+ 
+// Estilos para la sección de navegación
+.navigation-links {
+  margin-bottom: 1.5rem;
+  
+  a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Estilos para la sección de exportación
+.export-section {
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+// Estilos para el botón de exportar a Excel
+.export-excel-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.2);
+  
+  &:hover {
+    background: linear-gradient(135deg, #218838 0%, #1ea085 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+  }
+  
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.2);
+  }
+  
+  &:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    
+    &:hover {
+      background: #6c757d;
+      transform: none;
+      box-shadow: none;
+    }
+  }
+  
+  .export-icon {
+    font-size: 1.1rem;
+    display: inline-block;
+  }
+}
+
+// Estilos para el contenedor de la tabla
+.grid-container {
+  height: 500px;
+  width: 60vw;
+  overflow: hidden;
+}

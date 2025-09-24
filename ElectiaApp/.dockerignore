@@ -1,0 +1,11 @@
+# Archivo .dockerignore para ElectiaApp
+node_modules
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+.env
+dist
+.vite
+coverage

@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|solutionrelative:electiacore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|solutionrelative:electiacore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069DA85C-E6B8-47F8-954D-24D99716FB66}|ElectiaCore.Application\\ElectiaCore.Application.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069DA85C-E6B8-47F8-954D-24D99716FB66}|ElectiaCore.Application\\ElectiaCore.Application.csproj|solutionrelative:electiacore.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|solutionrelative:electiacore.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.web\\controllers\\adminemailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64CD62-F586-4DA0-95BD-535E02AB5C7C}|ElectiaCore.Web\\ElectiaCore.Web.csproj|solutionrelative:electiacore.web\\controllers\\adminemailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2623E52-9299-4F0E-A6E4-D3981A846491}|ElectiaCore.Domain\\ElectiaCore.Domain.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.domain\\entities\\adminemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2623E52-9299-4F0E-A6E4-D3981A846491}|ElectiaCore.Domain\\ElectiaCore.Domain.csproj|solutionrelative:electiacore.domain\\entities\\adminemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2623E52-9299-4F0E-A6E4-D3981A846491}|ElectiaCore.Domain\\ElectiaCore.Domain.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.domain\\entities\\center.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2623E52-9299-4F0E-A6E4-D3981A846491}|ElectiaCore.Domain\\ElectiaCore.Domain.csproj|solutionrelative:electiacore.domain\\entities\\center.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97014084-0284-489C-AECB-768AB56E2D79}|ElectiaCore.Infrastructure\\ElectiaCore.Infrastructure.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.infrastructure\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97014084-0284-489C-AECB-768AB56E2D79}|ElectiaCore.Infrastructure\\ElectiaCore.Infrastructure.csproj|solutionrelative:electiacore.infrastructure\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\professorrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\professorrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\majorrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\majorrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\courseinstancerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\courseinstancerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\coursegraderepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\coursegraderepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\courseapplicationrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\courseapplicationrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\centerrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\centerrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\courserepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\courserepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\studentrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\studentrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\repositorytests\\rulerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\repositorytests\\rulerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.tests\\helpers\\testdbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9A4F85-575D-4389-9678-1A3CE66B47C7}|ElectiaCore.Tests\\ElectiaCore.Tests.csproj|solutionrelative:electiacore.tests\\helpers\\testdbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97014084-0284-489C-AECB-768AB56E2D79}|ElectiaCore.Infrastructure\\ElectiaCore.Infrastructure.csproj|c:\\users\\alex\\documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\electiacore\\electiacore.infrastructure\\migrations\\20250623183520_addedsuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97014084-0284-489C-AECB-768AB56E2D79}|ElectiaCore.Infrastructure\\ElectiaCore.Infrastructure.csproj|solutionrelative:electiacore.infrastructure\\migrations\\20250623183520_addedsuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 158,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "ElectiaCore.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\appsettings.json",
+              "RelativeToolTip": "ElectiaCore.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-24T22:37:24.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250623183520_AddedSuperadmin.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Infrastructure\\Migrations\\20250623183520_AddedSuperadmin.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Infrastructure\\Migrations\\20250623183520_AddedSuperadmin.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Infrastructure\\Migrations\\20250623183520_AddedSuperadmin.cs",
+              "RelativeToolTip": "ElectiaCore.Infrastructure\\Migrations\\20250623183520_AddedSuperadmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:35:20.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Program.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Program.cs",
+              "RelativeToolTip": "ElectiaCore.Web\\Program.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAIQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:34:55.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminEmailsController.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Controllers\\AdminEmailsController.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Web\\Controllers\\AdminEmailsController.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Controllers\\AdminEmailsController.cs",
+              "RelativeToolTip": "ElectiaCore.Web\\Controllers\\AdminEmailsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:30:34.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Center.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Domain\\Entities\\Center.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Domain\\Entities\\Center.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Domain\\Entities\\Center.cs",
+              "RelativeToolTip": "ElectiaCore.Domain\\Entities\\Center.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:21:58.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminEmail.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Domain\\Entities\\AdminEmail.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Domain\\Entities\\AdminEmail.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Domain\\Entities\\AdminEmail.cs",
+              "RelativeToolTip": "ElectiaCore.Domain\\Entities\\AdminEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:21:41.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Infrastructure\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Infrastructure\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Infrastructure\\DatabaseSeeder.cs",
+              "RelativeToolTip": "ElectiaCore.Infrastructure\\DatabaseSeeder.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvzQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:44:40.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Application\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Application\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Application\\Services\\AccountService.cs",
+              "RelativeToolTip": "ElectiaCore.Application\\Services\\AccountService.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAApwNkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:42:27.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ElectiaCore.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:40:40.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CenterRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CenterRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\CenterRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CenterRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\CenterRepositoryTests.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T14:07:15.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\StudentRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\StudentRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\StudentRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\StudentRepositoryTests.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAApwJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:32.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseGradeRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseGradeRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\CourseGradeRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseGradeRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\CourseGradeRepositoryTests.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAowMMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:24.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MajorRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\MajorRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\MajorRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\MajorRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\MajorRepositoryTests.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAApwIEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:20.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RuleRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\RuleRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\RuleRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\RuleRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\RuleRepositoryTests.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAApwKgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:18.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfessorRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\ProfessorRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\ProfessorRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\ProfessorRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\ProfessorRepositoryTests.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAowGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:15.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseInstanceRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseInstanceRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\CourseInstanceRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseInstanceRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\CourseInstanceRepositoryTests.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAADgv5oAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:53:12.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseApplicationRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseApplicationRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\CourseApplicationRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseApplicationRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\CourseApplicationRepositoryTests.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAADgv8oAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:44:38.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CourseRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\RepositoryTests\\CourseRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\RepositoryTests\\CourseRepositoryTests.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\RepositoryTests\\CourseRepositoryTests.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:31:33.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestDbContextHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\Helpers\\TestDbContextHelper.cs",
+              "RelativeDocumentMoniker": "ElectiaCore.Tests\\Helpers\\TestDbContextHelper.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\_my_docs\\developing\\projects\\thesis\\docker-testing\\ElectiaCore\\ElectiaCore.Tests\\Helpers\\TestDbContextHelper.cs",
+              "RelativeToolTip": "ElectiaCore.Tests\\Helpers\\TestDbContextHelper.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAuwOUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:32:23.579Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

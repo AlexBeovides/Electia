@@ -1,0 +1,48 @@
+{
+  "name": "thesisapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:docker": "tsc -b tsconfig.docker.json && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.3.5",
+    "ag-grid-react": "^33.2.4",
+    "axios": "^1.10.0",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "lucide-react": "^0.522.0",
+    "react": "^19.0.0",
+    "react-cool-form": "^0.4.1",
+    "react-dom": "^19.0.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-router-dom": "^7.5.0",
+    "recharts": "^3.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/axios": "^0.14.4",
+    "@types/file-saver": "^2.0.7",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/xlsx": "^0.0.36",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.6",
+    "sass-embedded": "^1.89.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}

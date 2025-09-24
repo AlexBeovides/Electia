@@ -1,0 +1,83 @@
+.manager-page-container {
+    .page-header {
+        margin-left: 30px;
+        margin-top: 14vh; 
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: row; // Stacks the children vertically
+        // justify-content: space-between;
+        align-items: flex-start; 
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .manager-container {
+        display: flex;
+        flex-direction: row; // Stacks the children vertically
+        // justify-content: space-between;
+        align-items: flex-start; 
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .manager-table { 
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .my-button {
+        background: none; // Removes the default background
+        border: 1px solid #000; // Adds a thin border
+        border-radius: 4px; // Makes the button round
+        // background-color: ; // Sets the background color to blue
+        padding: 6px; // Removes the default padding
+        font: inherit; // Makes the button inherit font properties from its parent
+        cursor: pointer; // Changes the cursor to a pointer when hovering over the button
+        outline: inherit; // Makes the button inherit outline properties from its parent
+    }
+
+    .delete-button { 
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form-container {
+        display: flex;
+        flex:1;
+        flex-direction: column; // Stacks the children vertically
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        max-width: 300px; // Adjust this value as needed
+        flex-grow: 0; 
+    }
+        
+    .form-container input {
+        margin-bottom: 5px; // Adds a bottom margin to each input field
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        min-width: 230px;
+        // height: 25px;
+    }
+
+    .form-container select {
+        margin-bottom: 5px; // Adds a bottom margin to each input field
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        min-width: 230px;
+        max-width: 100%;
+        // height: 25px;
+        }
+        
+    .form-container button {
+    // padding: 10px 20px; 
+    width: 100%;
+    border-radius: 4px;   
+    }
+    }

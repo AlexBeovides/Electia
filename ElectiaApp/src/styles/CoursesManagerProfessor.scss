@@ -1,0 +1,496 @@
+// Variables
+$primary-color: #2563eb;
+$primary-hover: #1d4ed8;
+$secondary-color: #64748b;
+$success-color: #10b981;
+$error-color: #ef4444;
+$warning-color: #f59e0b;
+
+$background-light: #f8fafc;
+$background-white: #ffffff;
+$border-color: #e2e8f0;
+$border-focus: #3b82f6;
+
+$text-primary: #1e293b;
+$text-secondary: #64748b;
+$text-muted: #94a3b8;
+
+$border-radius: 8px;
+$border-radius-lg: 12px;
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+$transition: all 0.2s ease-in-out;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin input-focus {
+  outline: none;
+  border-color: $border-focus;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.courses-manager-professor-page-container {
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+// Base styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: $background-light;
+  color: $text-primary;
+  line-height: 1.6;
+}
+
+// Page header
+.page-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin: 0 0 2rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, $primary-color, #4f46e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Main container
+.manager-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  @media (max-width: 768px) {
+    padding: 0 0.5rem;
+  }
+}
+
+// Form container
+.form-container {
+  background: $background-white;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-lg;
+  padding: 2.5rem;
+  border: 1px solid $border-color;
+  
+  // Form grid layout
+  display: grid;
+  gap: 1.5rem;
+  
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    border-radius: $border-radius;
+  }
+  
+  // Labels
+  label {
+    font-weight: 600;
+    color: $text-primary;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    
+    // Required asterisk
+    span {
+      color: $error-color;
+      margin-left: 0.25rem;
+    }
+  }
+  
+  // Input fields and textareas
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid $border-color;
+    border-radius: $border-radius;
+    font-size: 0.875rem;
+    background-color: $background-white;
+    color: $text-primary;
+    transition: $transition;
+    font-family: inherit;
+    line-height: 1.5;
+    
+    &:focus {
+      @include input-focus;
+    }
+    
+    &:hover:not(:focus) {
+      border-color: #cbd5e1;
+    }
+    
+    &::placeholder {
+      color: $text-muted;
+      font-style: italic;
+    }
+    
+    &:invalid {
+      border-color: $error-color;
+    }
+    
+    &:valid:not(:placeholder-shown) {
+      border-color: $success-color;
+    }
+  }
+  
+  // Textarea specific styles
+  textarea {
+    min-height: 120px;
+    resize: vertical;
+    transition: $transition, min-height 0.3s ease;
+    
+    &:focus {
+      min-height: 150px;
+    }
+    
+    // Different sizes for different content types
+    &[rows="3"] {
+      min-height: 90px;
+      
+      &:focus {
+        min-height: 120px;
+      }
+    }
+    
+    &[rows="4"] {
+      min-height: 120px;
+      
+      &:focus {
+        min-height: 150px;
+      }
+    }
+    
+    &[rows="6"] {
+      min-height: 180px;
+      
+      &:focus {
+        min-height: 220px;
+      }
+    }
+    
+    // Character count area styling
+    &[data-character-count] {
+      padding-bottom: 2rem;
+      position: relative;
+      
+      &::after {
+        content: attr(data-character-count);
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.75rem;
+        font-size: 0.75rem;
+        color: $text-muted;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+      }
+    }
+    
+    // Enhanced scrollbar for webkit browsers
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: $background-light;
+      border-radius: 4px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: $border-color;
+      border-radius: 4px;
+      
+      &:hover {
+        background: $text-muted;
+      }
+    }
+    
+    // Loading state for textareas
+    &.loading {
+      background-image: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 35px,
+        rgba(59, 130, 246, 0.1) 35px,
+        rgba(59, 130, 246, 0.1) 70px
+      );
+      animation: loading-shimmer 2s infinite linear;
+    }
+  }
+  
+  // Select specific styles
+  select {
+    cursor: pointer; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+    
+    &:focus {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%233b82f6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    }
+    
+    option {
+      padding: 0.5rem;
+    }
+  }
+  
+  // File input
+  input[type="file"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px dashed $border-color;
+    border-radius: $border-radius;
+    background-color: #f8fafc;
+    color: $text-secondary;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: $transition;
+    
+    &:hover {
+      border-color: $primary-color;
+      background-color: #eff6ff;
+    }
+    
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+    
+    &::file-selector-button {
+      background: $primary-color;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: calc(#{$border-radius} - 2px);
+      font-weight: 500;
+      font-size: 0.75rem;
+      cursor: pointer;
+      margin-right: 1rem;
+      transition: $transition;
+      
+      &:hover {
+        background: $primary-hover;
+      }
+    }
+  }
+  
+  // Submit button
+  .my-button {
+    background: linear-gradient(135deg, $primary-color, #4f46e5);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: $border-radius;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: $transition;
+    box-shadow: $shadow-md;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+    width: 100%;
+    
+    @media (min-width: 640px) {
+      width: auto;
+      justify-self: center;
+    }
+    
+    &:hover {
+      background: linear-gradient(135deg, $primary-hover, #4338ca);
+      box-shadow: $shadow-lg;
+      transform: translateY(-1px);
+    }
+    
+    &:active {
+      transform: translateY(0);
+      box-shadow: $shadow-md;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: $shadow-lg, 0 0 0 3px rgba(59, 130, 246, 0.3);
+    }
+    
+    &:disabled {
+      background: $text-muted;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+  }
+}
+
+// Form sections
+.form-section {
+  border-top: 1px solid $border-color;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  
+  &:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  // Academic content section gets special spacing
+  &:has(.section-title:contains("Contenido Académico")),
+  &:has(.section-title:contains("Bibliografía y Evaluación")) {
+    textarea {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: $text-primary;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $primary-color;
+  display: inline-block;
+}
+
+// Responsive grid for form fields
+.form-row {
+  display: grid;
+  gap: 1rem;
+  
+  @media (min-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+    
+    &.full-width {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// Loading state
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+  
+  .my-button {
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      margin: auto;
+      border: 2px solid transparent;
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes loading-shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+// Error states
+.error-message {
+  color: $error-color;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: flex-start;
+  
+  &::before {
+    content: '⚠';
+    margin-right: 0.25rem;
+    margin-top: 0.1rem;
+  }
+}
+
+.field-error {
+  input,
+  select,
+  textarea {
+    border-color: $error-color;
+    
+    &:focus {
+      border-color: $error-color;
+      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+    }
+  }
+}
+
+// Success states
+.success-message {
+  background: #dcfce7;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+  padding: 1rem;
+  border-radius: $border-radius;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  
+  &::before {
+    content: '✓';
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+}
+
+// Accessibility improvements
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// High contrast mode
+@media (prefers-contrast: high) {
+  .form-container {
+    border: 2px solid $text-primary;
+  }
+  
+  input,
+  select,
+  textarea {
+    border-width: 2px;
+  }
+}
+}

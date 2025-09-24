@@ -1,0 +1,326 @@
+// Variables
+$primary-color: #3B82F6;
+$secondary-color: #6B7280;
+$success-color: #10B981;
+$warning-color: #F59E0B;
+$danger-color: #EF4444;
+$purple-color: #8B5CF6;
+
+$background-light: #F9FAFB;
+$background-white: #FFFFFF;
+$border-color: #E5E7EB;
+$text-primary: #111827;
+$text-secondary: #6B7280;
+
+$border-radius: 8px;
+$shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+// Base styles
+.admin-statistics {
+  min-height: 100vh;
+  background-color: $background-light;
+  padding: 24px;
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  // Header
+  .header {
+    margin-bottom: 32px;
+
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      color: $text-primary;
+      margin-bottom: 8px;
+      margin: 0;
+    }
+
+    p {
+      color: $text-secondary;
+      margin: 0;
+    }
+  }
+
+  // Stats Grid
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+
+    .stat-card {
+      background: $background-white;
+      border-radius: $border-radius;
+      box-shadow: $shadow;
+      padding: 24px;
+
+      .stat-content {
+        display: flex;
+        align-items: center;
+
+        .stat-icon {
+          padding: 8px;
+          border-radius: $border-radius;
+          margin-right: 16px;
+
+          &.blue {
+            background-color: #DBEAFE;
+            color: $primary-color;
+          }
+
+          &.green {
+            background-color: #D1FAE5;
+            color: $success-color;
+          }
+
+          &.yellow {
+            background-color: #FEF3C7;
+            color: $warning-color;
+          }
+
+          &.purple {
+            background-color: #EDE9FE;
+            color: $purple-color;
+          }
+        }
+
+        .stat-info {
+          .stat-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: $text-secondary;
+            margin: 0 0 4px 0;
+          }
+
+          .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $text-primary;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // Chart Sections
+  .chart-section {
+    background: $background-white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    margin-bottom: 32px;
+
+    .chart-header {
+      padding: 16px 24px;
+      border-bottom: 1px solid $border-color;
+
+      h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin: 0;
+      }
+    }
+
+    .chart-content {
+      padding: 24px;
+
+      .chart-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        align-items: start;
+
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+      }
+
+      .chart-container {
+        height: 320px;
+      }
+
+      // Faculty List
+      .faculty-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .faculty-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 12px;
+          background-color: $background-light;
+          border-radius: $border-radius;
+
+          .faculty-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            .faculty-color {
+              width: 16px;
+              height: 16px;
+              border-radius: 50%;
+            }
+
+            .faculty-name {
+              font-weight: 500;
+              color: $text-primary;
+            }
+          }
+
+          .faculty-stats {
+            text-align: right;
+
+            .faculty-count {
+              font-weight: 700;
+              color: $text-primary;
+            }
+
+            .faculty-percentage {
+              font-size: 0.875rem;
+              color: $text-secondary;
+            }
+          }
+        }
+      }
+
+      // Grade Summary
+      .grade-summary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 16px;
+        margin-top: 24px;
+
+        .grade-card {
+          text-align: center;
+          padding: 16px;
+          background-color: $background-light;
+          border-radius: $border-radius;
+
+          .grade-count {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $text-primary;
+          }
+
+          .grade-range {
+            font-size: 0.875rem;
+            color: $text-secondary;
+            margin: 4px 0;
+          }
+
+          .grade-percentage {
+            font-size: 0.75rem;
+            color: $text-secondary;
+          }
+        }
+      }
+    }
+  }
+
+  // Loading States
+  .loading-container {
+    min-height: 100vh;
+    background-color: $background-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loading-content {
+      text-align: center;
+
+      .spinner {
+        width: 48px;
+        height: 48px;
+        border: 2px solid $border-color;
+        border-top: 2px solid $primary-color;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 16px;
+      }
+
+      p {
+        color: $text-secondary;
+        margin: 0;
+      }
+    }
+  }
+
+  // Error States
+  .error-container {
+    min-height: 100vh;
+    background-color: $background-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .error-content {
+      background: #FEF2F2;
+      border: 1px solid #FECACA;
+      border-radius: $border-radius;
+      padding: 24px;
+      max-width: 400px;
+      text-align: center;
+
+      .error-icon {
+        font-size: 2rem;
+        margin-bottom: 16px;
+      }
+
+      h3 {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #991B1B;
+        margin: 0 0 8px 0;
+      }
+
+      p {
+        font-size: 0.875rem;
+        color: #B91C1C;
+        margin: 0;
+      }
+    }
+  }
+
+  // Animations
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .admin-statistics {
+    padding: 16px;
+
+    .stats-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .chart-section {
+      .chart-content {
+        padding: 16px;
+
+        .chart-container {
+          height: 250px;
+        }
+
+        .grade-summary {
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          gap: 12px;
+        }
+      }
+    }
+  }
+}
+}
+

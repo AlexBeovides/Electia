@@ -1,0 +1,10 @@
+# Archivo .dockerignore para ElectiaCore
+**/bin
+**/obj
+**/.vs
+**/node_modules
+**/.git
+**/.gitignore
+**/README.md
+**/Dockerfile
+**/.dockerignore

@@ -1,0 +1,262 @@
+.course-info-professor-page-container {
+  .edit-button {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    transition: transform 0.2s ease;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  // Buttons
+    .btn-enroll {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+    
+    &:active {
+        transform: translateY(0);
+    }
+    }
+
+    .btn-approve {
+      background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
+      margin-top: 1.5rem;
+      
+      &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(72, 187, 120, 0.6);
+          background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
+      }
+      
+      &:active {
+          transform: translateY(0);
+      }
+      
+      &:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+          transform: none;
+          box-shadow: none;
+      }
+    }
+
+    .btn-reject {
+        background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+        color: white;
+        border: none;
+        margin-left: 10px;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(229, 62, 62, 0.4);
+        margin-top: 1.5rem;
+        
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(229, 62, 62, 0.6);
+            background: linear-gradient(135deg, #c53030 0%, #9c2525 100%);
+        }
+        
+        &:active {
+            transform: translateY(0);
+        }
+        
+        &:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+    }
+
+    .approval-section {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 1.5rem;
+    }
+
+    .status-approved {
+    color: #2f855a;
+    font-weight: 600;
+    }
+
+    .status-pending {
+    color: #ed8936;
+    font-weight: 600;
+    }
+
+    .status-rejected {
+    color: #e53e3e;
+    font-weight: 600;
+    }
+
+    .btn-withdraw {
+    background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(245, 101, 101, 0.4);
+    }
+    }
+
+  
+  // Course Image Section
+  .course-image-container {
+    text-align: center;
+    
+    .course-image {
+      max-width: 100%;
+      height: auto;
+      max-height: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      }
+      
+      @media (max-width: 768px) {
+        max-height: 300px;
+      }
+      
+      @media (max-width: 480px) {
+        max-height: 200px;
+      }
+    }
+    
+    .image-link-container {
+      .image-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+        border-radius: 25px;
+        border: 2px solid #e2e8f0;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          color: #764ba2;
+          background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
+          border-color: #667eea;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+        }
+        
+        &:active {
+          transform: translateY(0);
+        }
+        
+        @media (max-width: 480px) {
+          font-size: 0.9rem;
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
+  }
+
+
+
+      .authorization-letter-container {
+        .authorization-info {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid #4299e1;
+            text-align: center;
+            
+            .authorization-description {
+                color: #4a5568;
+                font-size: 1.1rem;
+                line-height: 1.6;
+                margin-bottom: 1.5rem;
+                margin: 0 0 1.5rem 0;
+            }
+        }
+    }
+
+    .btn-download-authorization {
+        background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(66, 153, 225, 0.4);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(66, 153, 225, 0.6);
+            background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+        }
+        
+        &:active {
+            transform: translateY(0);
+        }
+        
+        @media (max-width: 768px) {
+            padding: 0.875rem 1.5rem;
+            font-size: 1rem;
+        }
+        
+        @media (max-width: 480px) {
+            padding: 0.75rem 1.25rem;
+            font-size: 0.95rem;
+        }
+    }
+
+
+}

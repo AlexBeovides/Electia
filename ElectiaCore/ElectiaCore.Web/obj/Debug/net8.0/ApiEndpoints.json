@@ -1,0 +1,3279 @@
+[
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "ElectiaCore.Application.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AccountController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AccountController",
+    "Method": "RegisterProfessor",
+    "RelativePath": "api/Account/register-professor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TeacherCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AcademicDegree",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Landline",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AccountController",
+    "Method": "RegisterStudent",
+    "RelativePath": "api/Account/register-student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EveaUsername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FacultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MajorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AdminEmailsController",
+    "Method": "GetAdminEmails",
+    "RelativePath": "api/AdminEmails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.AdminEmail, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AdminEmailsController",
+    "Method": "PostAdminEmail",
+    "RelativePath": "api/AdminEmails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminEmail",
+        "Type": "ElectiaCore.Domain.Entities.AdminEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.AdminEmail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AdminEmailsController",
+    "Method": "GetAdminEmail",
+    "RelativePath": "api/AdminEmails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.AdminEmail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AdminEmailsController",
+    "Method": "PutAdminEmail",
+    "RelativePath": "api/AdminEmails/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminEmail",
+        "Type": "ElectiaCore.Domain.Entities.AdminEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.AdminEmailsController",
+    "Method": "DeleteAdminEmail",
+    "RelativePath": "api/AdminEmails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CentersController",
+    "Method": "GetCenters",
+    "RelativePath": "api/Centers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Center, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CentersController",
+    "Method": "PostCenter",
+    "RelativePath": "api/Centers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "center",
+        "Type": "ElectiaCore.Domain.Entities.Center",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Center",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CentersController",
+    "Method": "GetCenter",
+    "RelativePath": "api/Centers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Center",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CentersController",
+    "Method": "PutCenter",
+    "RelativePath": "api/Centers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "center",
+        "Type": "ElectiaCore.Domain.Entities.Center",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CentersController",
+    "Method": "DeleteCenter",
+    "RelativePath": "api/Centers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "GetCourseApplications",
+    "RelativePath": "api/CourseApplications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.CourseApplication, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "PostCourseApplication",
+    "RelativePath": "api/CourseApplications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MotivationLetter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppliedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.IDNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.PrimaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.EveaUsername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.FacultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Majors",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Major, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.MajorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.FacultyId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Majors",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Major, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.AcademicYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.NormalizedUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.NormalizedEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.EmailConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.SecurityStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.ConcurrencyStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PhoneNumberConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.TwoFactorEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.LockoutEnd",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.LockoutEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.AccessFailedCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.CourseApplications",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.CourseApplication, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CenterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Modality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.EnrollmentCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.PrimaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.TeacherCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.AcademicDegree",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.Landline",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.MainCourses",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Course, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.NormalizedUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.NormalizedEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.EmailConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.SecurityStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.ConcurrencyStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PhoneNumberConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.TwoFactorEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.LockoutEnd",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.LockoutEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.AccessFailedCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CollaboratingProfessors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CourseJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.GeneralObjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.SpecificObjectives",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CourseSyllabus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.BasicBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ComplementaryBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.EvaluationSystem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ModalityJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.BasicRequirements",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MeetingPlace",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.StrategicAxes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.StrategicSectors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.AuthorizationLetterData",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ImgUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CreatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.UpdatedAt",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Applications",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.CourseApplication, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Rules",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Rule, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "GetCourseApplication",
+    "RelativePath": "api/CourseApplications/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "PutCourseApplication",
+    "RelativePath": "api/CourseApplications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MotivationLetter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppliedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.IDNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.PrimaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.EveaUsername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.FacultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.Majors",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Major, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Faculty.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.MajorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.FacultyId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.Majors",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Major, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.Faculty.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.Major.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.AcademicYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.NormalizedUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.NormalizedEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.EmailConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.SecurityStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.ConcurrencyStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.PhoneNumberConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.TwoFactorEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.LockoutEnd",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.LockoutEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.User.AccessFailedCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.CourseApplications",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.CourseApplication, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Student.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CenterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Center.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Modality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.EnrollmentCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.PrimaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.TeacherCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.AcademicDegree",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.Landline",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.SecondaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.MainCourses",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Course, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.NormalizedUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.NormalizedEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.EmailConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.SecurityStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.ConcurrencyStamp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.PhoneNumberConfirmed",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.TwoFactorEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.LockoutEnd",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.LockoutEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.User.AccessFailedCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MainProfessor.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CollaboratingProfessors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CourseJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.GeneralObjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.SpecificObjectives",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CourseSyllabus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.BasicBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ComplementaryBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.EvaluationSystem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ModalityJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.BasicRequirements",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.MeetingPlace",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.StrategicAxes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.StrategicSectors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.AuthorizationLetterData",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.ImgUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.CreatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.UpdatedAt",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Course.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Applications",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.CourseApplication, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Rules",
+        "Type": "System.Collections.Generic.List\u00601[[ElectiaCore.Domain.Entities.Rule, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "DeleteCourseApplication",
+    "RelativePath": "api/CourseApplications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "ApplyToCourse",
+    "RelativePath": "api/CourseApplications/apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseApplicationDto",
+        "Type": "ElectiaCore.Application.DTOs.CourseApplicationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "GetCourseApplicationsByCourseId",
+    "RelativePath": "api/CourseApplications/ByCourse/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.StudentDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "IsApplicant",
+    "RelativePath": "api/CourseApplications/isApplicant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseApplicationsController",
+    "Method": "WithdrawFromCourse",
+    "RelativePath": "api/CourseApplications/withdraw/{courseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "GetCourseGrades",
+    "RelativePath": "api/CourseGrades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.CourseGrade, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "PostCourseGrade",
+    "RelativePath": "api/CourseGrades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseGrade",
+        "Type": "ElectiaCore.Domain.Entities.CourseGrade",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseGrade",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "GetCourseGrade",
+    "RelativePath": "api/CourseGrades/{courseGradeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseGradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseGrade",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "PutCourseGrade",
+    "RelativePath": "api/CourseGrades/{courseGradeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseGradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseGrade",
+        "Type": "ElectiaCore.Domain.Entities.CourseGrade",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "DeleteCourseGrade",
+    "RelativePath": "api/CourseGrades/{courseGradeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseGradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "GetCourseGradesByCourseId",
+    "RelativePath": "api/CourseGrades/ByCourse/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CourseRosterDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "PutCourseGradeByProfessor",
+    "RelativePath": "api/CourseGrades/ByProfessor/{courseGradeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseGradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editGradeDto",
+        "Type": "ElectiaCore.Application.DTOs.EditGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "EnrollStudent",
+    "RelativePath": "api/CourseGrades/enroll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ElectiaCore.Application.DTOs.EnrollmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseGradesController",
+    "Method": "GenerateEnrollment",
+    "RelativePath": "api/CourseGrades/generate-enrollment/{courseInstanceId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseInstanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstances",
+    "RelativePath": "api/CourseInstances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.CourseInstance, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "PostCourseInstance",
+    "RelativePath": "api/CourseInstances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseInstance",
+        "Type": "ElectiaCore.Domain.Entities.CourseInstance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseInstance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstance",
+    "RelativePath": "api/CourseInstances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.CourseInstance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "PutCourseInstance",
+    "RelativePath": "api/CourseInstances/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseInstance",
+        "Type": "ElectiaCore.Domain.Entities.CourseInstance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "DeleteCourseInstance",
+    "RelativePath": "api/CourseInstances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstancesForCatalog",
+    "RelativePath": "api/CourseInstances/ForCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstanceForCatalog",
+    "RelativePath": "api/CourseInstances/ForCatalog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Application.DTOs.CoursesCatalogDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstancesEnrolledForCatalog",
+    "RelativePath": "api/CourseInstances/ForCatalog/Enrolled",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstancesForCatalogFromProfessor",
+    "RelativePath": "api/CourseInstances/ForCatalog/FromProfessor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.CourseInstancesController",
+    "Method": "GetCourseInstancesForCatalogFromStudent",
+    "RelativePath": "api/CourseInstances/ForCatalog/FromStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCourses",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Course, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "PostCourse",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CenterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModalityId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnrollmentCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MainProfessorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CollaboratingProfessors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GeneralObjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SpecificObjectives",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseSyllabus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ComplementaryBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EvaluationSystem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModalityJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicRequirements",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MeetingPlace",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicAxesId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicSectorsId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AuthorizationLetterDataBase64",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImgUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "PutCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "course",
+        "Type": "ElectiaCore.Domain.Entities.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "ApproveCourse",
+    "RelativePath": "api/Courses/Approve/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "PutCourseByProfessor",
+    "RelativePath": "api/Courses/ByProfessor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnrollmentCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CollaboratingProfessors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GeneralObjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SpecificObjectives",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseSyllabus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ComplementaryBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EvaluationSystem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModalityJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicRequirements",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MeetingPlace",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicAxesId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicSectorsId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AuthorizationLetterDataBase64",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImgUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCourseModalities",
+    "RelativePath": "api/Courses/course-modalities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCoursesForCatalog",
+    "RelativePath": "api/Courses/ForCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCourseForCatalog",
+    "RelativePath": "api/Courses/ForCatalog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Application.DTOs.CoursesCatalogDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetCoursesFromProfessor",
+    "RelativePath": "api/Courses/FromProfessor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.CoursesCatalogDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "PostCourseProfessor",
+    "RelativePath": "api/Courses/FromProfessor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CenterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModalityId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnrollmentCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MainProfessorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CollaboratingProfessors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GeneralObjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SpecificObjectives",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseSyllabus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ComplementaryBibliography",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EvaluationSystem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModalityJustification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasicRequirements",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MeetingPlace",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicAxesId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StrategicSectorsId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AuthorizationLetterDataBase64",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImgUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "RejectCourse",
+    "RelativePath": "api/Courses/Reject/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetStrategicAxes",
+    "RelativePath": "api/Courses/strategic-axes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoursesController",
+    "Method": "GetStrategicSectors",
+    "RelativePath": "api/Courses/strategic-sectors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.FacultiesController",
+    "Method": "GetFaculties",
+    "RelativePath": "api/Faculties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Faculty, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.FacultiesController",
+    "Method": "PostFaculty",
+    "RelativePath": "api/Faculties",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "ElectiaCore.Domain.Entities.Faculty",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Faculty",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.FacultiesController",
+    "Method": "GetFaculty",
+    "RelativePath": "api/Faculties/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Faculty",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.FacultiesController",
+    "Method": "PutFaculty",
+    "RelativePath": "api/Faculties/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "faculty",
+        "Type": "ElectiaCore.Domain.Entities.Faculty",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.FacultiesController",
+    "Method": "DeleteFaculty",
+    "RelativePath": "api/Faculties/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.LoadTestController",
+    "Method": "BulkCreateStudents",
+    "RelativePath": "api/LoadTest/bulk-create-students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.LoadTestController",
+    "Method": "BulkDeleteCourseApplications",
+    "RelativePath": "api/LoadTest/bulk-delete-course-applications",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.LoadTestController",
+    "Method": "BulkDeleteStudents",
+    "RelativePath": "api/LoadTest/bulk-delete-students",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.MajorsController",
+    "Method": "GetMajors",
+    "RelativePath": "api/Majors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Major, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.MajorsController",
+    "Method": "PostMajor",
+    "RelativePath": "api/Majors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "major",
+        "Type": "ElectiaCore.Domain.Entities.Major",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Major",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.MajorsController",
+    "Method": "GetMajor",
+    "RelativePath": "api/Majors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Major",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.MajorsController",
+    "Method": "PutMajor",
+    "RelativePath": "api/Majors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "major",
+        "Type": "ElectiaCore.Domain.Entities.Major",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.MajorsController",
+    "Method": "DeleteMajor",
+    "RelativePath": "api/Majors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetProfessors",
+    "RelativePath": "api/Professors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Professor, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "PostProfessor",
+    "RelativePath": "api/Professors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "professor",
+        "Type": "ElectiaCore.Domain.Entities.Professor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Professor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetProfessor",
+    "RelativePath": "api/Professors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Professor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "PutProfessor",
+    "RelativePath": "api/Professors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "professor",
+        "Type": "ElectiaCore.Domain.Entities.Professor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "DeleteProfessor",
+    "RelativePath": "api/Professors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetAcademicDegrees",
+    "RelativePath": "api/Professors/academic-degrees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetProfessorsForCatalog",
+    "RelativePath": "api/Professors/ForCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.ProfessorDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetProfessorForForm",
+    "RelativePath": "api/Professors/ForForm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Professor, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetProfessorStats",
+    "RelativePath": "api/Professors/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Application.DTOs.ProfessorStatsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.ProfessorsController",
+    "Method": "GetTeacherCategories",
+    "RelativePath": "api/Professors/teacher-categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "GetRules",
+    "RelativePath": "api/Rules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Rule, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "PostRule",
+    "RelativePath": "api/Rules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ruleDto",
+        "Type": "ElectiaCore.Application.DTOs.CreateRuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Rule",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "GetRule",
+    "RelativePath": "api/Rules/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Rule",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "PutRule",
+    "RelativePath": "api/Rules/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rule",
+        "Type": "ElectiaCore.Domain.Entities.Rule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "DeleteRule",
+    "RelativePath": "api/Rules/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.RulesController",
+    "Method": "GetRulesByCourseInstance",
+    "RelativePath": "api/Rules/ByCourseInstance/{courseInstanceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseInstanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.RuleDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Domain.Entities.Student, ElectiaCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "PostStudent",
+    "RelativePath": "api/Students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "ElectiaCore.Domain.Entities.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Student",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Student",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "PutStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "student",
+        "Type": "ElectiaCore.Domain.Entities.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "GetAcademicYears",
+    "RelativePath": "api/Students/academic-years",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "GetStudentsForCatalog",
+    "RelativePath": "api/Students/ForCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ElectiaCore.Application.DTOs.StudentDto, ElectiaCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ElectiaCore.Web.Controllers.StudentsController",
+    "Method": "GetMyDetails",
+    "RelativePath": "api/Students/MyDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ElectiaCore.Domain.Entities.Student",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.deps.json
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfoInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfo.cs
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\refint\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ref\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.AssemblyReference.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaC.7F301974.Up2Date
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.deps.json
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.AssemblyReference.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfoInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfo.cs
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.sourcelink.json
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaC.7F301974.Up2Date
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\refint\ElectiaCore.Application.dll
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\abasb\OneDrive\Documents\_my docs\degree\thesis\course-allocation\Electia\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ref\ElectiaCore.Application.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.deps.json
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Domain.pdb
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\bin\Debug\net8.0\ElectiaCore.Infrastructure.pdb
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.AssemblyReference.cache
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfoInputs.cache
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.AssemblyInfo.cs
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaC.7F301974.Up2Date
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\refint\ElectiaCore.Application.dll
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ElectiaCore.Application.pdb
+C:\Users\alex\Documents\_my_docs\developing\projects\thesis\docker-testing\ElectiaCore\ElectiaCore.Application\obj\Debug\net8.0\ref\ElectiaCore.Application.dll
